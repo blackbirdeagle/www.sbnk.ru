@@ -1,0 +1,1 @@
+<img src="/upload/medialibrary/ba5/ba5c03d90e7f2572e3be009f32d70cd9.png"  title="Лого">

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages> 
+	<info id="1"> 
+		<buy_usd>56.08</buy_usd>
+		<sell_usd>56.82</sell_usd>
+		<date>16.05.2017</date>	
+	</info>	
+	<info id="2"> 
+		<buy_eur>61.42</buy_eur>
+		<sell_eur>62.24</sell_eur>
+		<date>16.05.2017</date>		
+	</info>	
+</messages> 

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<title>Главная</title>
+	
+</head>
+<body>
+
+	<div class="overlay"></div>
+	<div class="overlay2"></div>
+
+	<div class="popup send_form open-pp">
+		<div class="head">Открыть счет</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+		<form action = "" method = "POST">
+			<input type = "text" name = "name" id = "name1" placeholder = "Имя"/>
+			<input type = "text" name = "phone" id = "phone1" class = "phone" placeholder = "Телефон"/>
+		</form>
+		<a class = "send_open_pay" href = "javascript:void(0);">отправить</a>
+		<a class = "politica" popup-target = "confid-pp" href = "">Политика конфиденциальности</a>
+	</div>
+
+	<div class="popup send_form callback-pp">
+		<div class="head">Обратный звонок</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+		<form action = "" method = "POST">
+			<input type = "text" name = "name" id = "name3" placeholder = "Имя"/>
+			<input type = "text" name = "phone" id = "phone3" class = "phone" placeholder = "Телефон"/>
+		</form>
+		<a class = "send_callback" href = "javascript:void(0);">отправить</a>
+		<a class = "politica" popup-target = "confid-pp" href = "">Политика конфиденциальности</a>
+	</div>
+	
+	<div class="popup send_form confid-pp">
+		<div class="head">Политика конфиденциальности</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		</p>
+	</div>	
+	
+	<div class="popup send_form vg-pp">
+		<div class="head">Вопрос/жалоба</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+		<form action = "" method = "POST">
+			<input type = "text" name = "name" id = "name2" placeholder = "Имя"/>
+			<input type = "text" name = "email" id = "email2" placeholder = "e-mail"/>
+			<textarea id = "text2" name = "text"></textarea>
+		</form>
+		<a class = "send_v_g" href = "javascript:void(0);">отправить</a>
+		<a class = "politica" popup-target = "confid-pp" href = "">Политика конфиденциальности</a>
+	</div>
+	
+	<header class = "header">
+		<div class = "top_info">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-4 col-sm-4">
+						<div class = "phone">
+							<p class = "top_phone">8 800 2000 600</p>
+							<p class = "top_phone_line">горячая линия</p>
+						</div>	
+					</div>
+					<div class = "col-md-4 col-sm-4">
+						<a class = "logo" href = "/"><img src = "images/logo.png" alt = ""/></a>
+					</div>
+					<div class = "col-md-4 col-sm-4">
+						<div class = "top_right">
+							<p class = "inter_bank">Интернет банк</p>
+							<a class = "input" href = "">войти</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>	
+
+			<div class="carousel-inner">
+				<div class="item active" style = "background: url('images/slide1.jpg');">
+					<div class="carousel-caption">
+						<h3>Большая выгода<br/>для малого бизнеса</h3>
+						<p>Самые выгодные тарифы РКО для малого бизнеса в России</p>
+					</div>
+				</div>					
+				<div class="item" style = "background: url('images/slide2.jpg');">
+					<div class="carousel-caption">
+						<h3>Выгодные<br/>тарифы<br/>обмена<br/>валюты</h3>
+						<p>Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit</p>
+					</div>
+				</div>
+				<div class="item" style = "background: url('images/slide3.jpg');">
+					<div class="carousel-caption">
+						<h3>ПЕРЕВОДЫ<br/>«Золотая Корона»</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</header>
+
+	<section id = "float_top_menu" class = "top_menu">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-1 col-xs-1">
+					<a class = "mob_menu_link_float"href = "#"><img src = "images/mob_menu.png" alt = ""/></a>
+				</div>
+				<div class = "col-md-10 float_navabar">
+					<ul class="nav navbar-nav osnovnoe_menu1">
+						<li class="">
+							<a class="fiziki_float" href="#">Физические лица</a>					
+						</li>
+						<li class="">
+							<a class="individ_pred_float" href="#">Индивидуальный предприниматель</a>
+						</li>
+						<li class="">
+							<a class="yuriki_float" href="#">юридические лица</a>
+						</li>					
+					</ul>
+					<div class = "real_search_input">
+						<input type = "text" required/>	
+					</div>				
+				</div>
+				<div class = "col-md-1 col-xs-11">
+					<div class = "search">
+						<form >
+							<input type = "text" placeholder = "Поиск" required/>
+							<input type = "submit" value = ""/>
+						</form>
+					</div>			
+				</div>
+			</div>
+		</div>
+		<div class = "mobile_menu_float">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block fiziki_block_float">
+							<a class = "mobile_menu_link_head" href = "">Физические лица</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Вклады</a></li>
+								<li><a href = "">Кредитование</a></li>
+								<li><a href = "">Переводы без открытия счета</a></li>
+								<li><a href = "">Переводы «Золотая корона»</a></li>
+								<li><a href = "">Консультирование</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block ip_block_float">
+							<a class = "mobile_menu_link_head" href = "">индивидуальный предприниматель</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Депозиты</a></li>
+								<li><a href = "">Кредиты</a></li>
+								<li><a href = "">Консультирование</a></li>
+								<li><a href = "">Интернет банк</a></li>
+								<li><a href = "">Агент валютного контроля</a></li>
+							</ul>	
+						</div>			
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block yuriki_block_float">
+							<a class = "mobile_menu_link_head" href = "">юридические лица</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Депозиты</a></li>
+								<li><a href = "">Кредиты</a></li>
+								<li><a href = "">Консультирование</a></li>
+								<li><a href = "">Интернет банк</a></li>
+								<li><a href = "">Агент валютного контроля</a></li>
+								<li><a href = "">банковские гарантии/поручительства</a></li>
+							</ul>	
+						</div>		
+					</div>
+				</div>
+			</div>	
+			
+			<div class = "mobile_menu_bottom">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-md-6 col-sm-6 col-xs-6 column_mobile_menu">
+							<div class = "mobile_menu_block">
+								<ul>
+									<li><a href = "">О банке</a></li>
+									<li><a href = "">Лицензия и Свидетельства</a></li>
+									<li><a href = "">Реквизиты банка</a></li>
+									<li><a href = "">Бухгалтерская и финансовая отчетность</a></li>
+									<li><a href = "">Раскрытие информации для регулятивных действий</a></li>
+									<li><a href = "">Информация о максимальных процентных ставках по вкладам физических лиц</a></li>
+									<li><a href = "">Информация о лицах, под контролем которых либо значительным влиянием которых находится Банк</a></li>
+								</ul>	
+							</div>						
+						</div>
+						<div class = "col-md-6 col-sm-6 col-xs-6 column_mobile_menu">
+							<div class = "mobile_menu_block">
+								<ul>
+									<li><a href = "">FATCA</a></li>
+									<li><a href = "">Обработка персональных данных</a></li>
+									<li><a href = "">Корпоративное управление</a></li>
+									<li><a href = "">Устав и внутренние документы</a></li>
+									<li><a href = "">О порядке работы с жалобами, обращениями и заявлениями клиентов</a></li>
+									<li><a href = "">Страница АО КБ «Соколовский» на сайте Банка России</a></li>
+									<li><a href = "">Контакты</a></li>
+									<li><a href = "">Вакансии</a></li>
+								</ul>	
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</section>
+	
+	<section class = "top_menu">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-1 col-xs-1">
+					<a class = "mob_menu_link"href = "#"><img src = "images/mob_menu.png" alt = ""/></a>
+				</div>
+				<div class = "col-md-10 float_navabar">
+					<ul class="nav navbar-nav osnovnoe_menu">
+						<li class="">
+							<a class="fiziki" href="#">Физические лица</a>					
+						</li>
+						<li class="">
+							<a class="individ_pred" href="#">Индивидуальный предприниматель</a>
+						</li>
+						<li class="">
+							<a class="yuriki" href="#">юридические лица</a>
+						</li>					
+					</ul>
+					<div class = "real_search_input">
+						<input type = "text" required/>	
+					</div>					
+				</div>
+				<div class = "col-md-1 col-xs-11">
+					<div class = "search">
+						<form >
+							<input type = "text" placeholder = "Поиск" required/>
+							<input type = "submit" value = ""/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+
+		<div class = "mobile_menu">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block fiziki_block">
+							<a class = "mobile_menu_link_head" href = "">Физические лица</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Вклады</a></li>
+								<li><a href = "">Кредитование</a></li>
+								<li><a href = "">Переводы без открытия счета</a></li>
+								<li><a href = "">Переводы «Золотая корона»</a></li>
+								<li><a href = "">Консультирование</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block ip_block">
+							<a class = "mobile_menu_link_head" href = "">индивидуальный предприниматель</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Депозиты</a></li>
+								<li><a href = "">Кредиты</a></li>
+								<li><a href = "">Консультирование</a></li>
+								<li><a href = "">Интернет банк</a></li>
+								<li><a href = "">Агент валютного контроля</a></li>
+							</ul>	
+						</div>			
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-6 column_mobile_menu">
+						<div class = "mobile_menu_block yuriki_block">
+							<a class = "mobile_menu_link_head" href = "">юридические лица</a>
+							<ul>
+								<li><a href = "">Рассчетно-кассовое обслуживание</a></li>
+								<li><a href = "">Депозиты</a></li>
+								<li><a href = "">Кредиты</a></li>
+								<li><a href = "">Консультирование</a></li>
+								<li><a href = "">Интернет банк</a></li>
+								<li><a href = "">Агент валютного контроля</a></li>
+								<li><a href = "">банковские гарантии/поручительства</a></li>
+							</ul>	
+						</div>		
+					</div>
+				</div>
+			</div>	
+			
+			<div class = "mobile_menu_bottom">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-md-6 col-sm-6 col-xs-6 column_mobile_menu">
+							<div class = "mobile_menu_block">
+								<ul>
+									<li><a href = "">О банке</a></li>
+									<li><a href = "">Лицензия и Свидетельства</a></li>
+									<li><a href = "">Реквизиты банка</a></li>
+									<li><a href = "">Бухгалтерская и финансовая отчетность</a></li>
+									<li><a href = "">Раскрытие информации для регулятивных действий</a></li>
+									<li><a href = "">Информация о максимальных процентных ставках по вкладам физических лиц</a></li>
+									<li><a href = "">Информация о лицах, под контролем которых либо значительным влиянием которых находится Банк</a></li>
+								</ul>	
+							</div>						
+						</div>
+						<div class = "col-md-6 col-sm-6 col-xs-6 column_mobile_menu">
+							<div class = "mobile_menu_block">
+								<ul>
+									<li><a href = "">FATCA</a></li>
+									<li><a href = "">Обработка персональных данных</a></li>
+									<li><a href = "">Корпоративное управление</a></li>
+									<li><a href = "">Устав и внутренние документы</a></li>
+									<li><a href = "">О порядке работы с жалобами, обращениями и заявлениями клиентов</a></li>
+									<li><a href = "">Страница АО КБ «Соколовский» на сайте Банка России</a></li>
+									<li><a href = "">Контакты</a></li>
+									<li><a href = "">Вакансии</a></li>
+								</ul>	
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section class = "content from_footer_content">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-6">
+					<h1>Название раздела</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class = "col-md-6">
+					<div class = "valuta">
+						<div class = "valuta_info">
+							<div class = "row">
+							
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p class = "bold">Валюта</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p>купить</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p>продать</p>
+								</div>
+							
+							</div>
+							<div class = "row">
+						
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p>USD</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p class = "bold">59,39</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p class = "bold">57,21</p>
+								</div>
+							
+							</div>
+							<div class = "row">
+						
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p>EUR</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p class = "bold">62,87</p>
+								</div>
+								<div class = "col-md-4 col-sm-4 col-xs-4">
+									<p class = "bold">60,43</p>
+								</div>
+							
+							</div>	
+							<div class = "row">
+								<div class = "col-md-12">
+									<p class = "val_data">данные на <span>01.03.2017</span></p>
+								</div>
+							</div>
+						</div>			
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+	<section class = "person">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-12">
+					<ul class = "select_person">
+						<li><a vid = "yuriki" class = "active" href = "">юридические лица</a></li>
+						<li><a vid = "ip" href = "">индивидуальным предпринимателям</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12">
+					<h2>Расчетно-кассовое<br/>обслуживание</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+			</div>
+			<div class = "advertising">
+				<div class = "row">
+					<div class = "col-md-4 col-sm-6 col-xs-12">
+						<img src = "images/adv.png" alt = ""/>
+						<p>Название преимущества</p>
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-12">
+						<img src = "images/adv.png" alt = ""/>
+						<p>Название преимущества</p>						
+					</div>
+					<div class = "col-md-4 col-sm-6 col-xs-12">
+						<img src = "images/adv.png" alt = ""/>
+						<p>Название преимущества</p>						
+					</div>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12">
+					<a class = "person_open_pay" href = "" popup-target = "open-pp">открыть счет</a>
+				</div>
+			</div>	
+		</div>
+	</section>
+	
+	<section class = "news_list">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-10 col-sm-9 col-xs-8">
+					<h2>Новости банка</h2>
+				</div>
+				<div class = "col-md-2 col-sm-3 col-xs-4">
+					<a class = "all_news" href = "">все новости</a>
+				</div>
+			</div>
+			<div class = "row new_row">
+				<div class = "col-md-2">
+					<p class = "news_data"><span>02</span> марта</p>
+				</div>
+				<div class = "col-md-10">
+					<a class = "news_detail" href = "">Банк «Соколовский» предлагает всем клиентам кофе от Старбакс</a>
+				</div>
+			</div>
+			<div class = "row new_row">
+				<div class = "col-md-2">
+					<p class = "news_data"><span>13</span> апреля</p>
+				</div>
+				<div class = "col-md-10">
+					<a class = "news_detail" href = "">Закрытие Волгоградского - ПКБ Филиала ПАО Банка «Соколовский». И прочие новости банка. </a>
+				</div>
+			</div>	
+			<div class = "row new_row">
+				<div class = "col-md-2">
+					<p class = "news_data"><span>13</span> апреля</p>
+				</div>
+				<div class = "col-md-10">
+					<a class = "news_detail" href = "">Режим работы банка в праздничные дни</a>
+				</div>
+			</div>		
+		</div>
+	</section>
+	
+	<footer class = "footer">
+		<div class = "footer_img_bg">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-6 col-sm-6 col-xs-12">
+						<p class = "copyright">&copy; 1997—2017 АО КБ «СОКОЛОВСКИЙ»</p>
+					</div>
+					<div class = "col-md-2 col-sm-3 col-xs-4 foot_link">
+						<p class = "link_head">вопрсы / жалобы</p>
+						<a class = "link_anc" popup-target = "vg-pp" href = "#">написать</a>
+					</div>
+					<div class = "col-md-2 col-sm-3 col-xs-4 foot_link">
+						<p class = "link_head">обратный звонок</p>
+						<a class = "link_anc" popup-target = "callback-pp" href = "#">заказать</a>
+					</div>	
+					<div class = "col-md-2 col-sm-12 col-xs-4 foot_link">
+						<p class = "link_head">горячая линия</p>
+						<p class = "link_anc">8 800 2000 600</p>
+					</div>					
+				</div>
+				<div class = "row foot_two">
+					<div class = "col-md-6 col-sm-6">
+						<p class = "system_strah">АО КБ «СОКОЛОВСКИЙ» принят в<br/>систему страхования вкладов</p>
+					</div>
+					<div class = "col-md-6 col-sm-6">
+						<a class = "open_pay" href = "#" popup-target = "open-pp">открыть счет</a>
+					</div>	
+				</div>
+				<div class = "row foot_menu">
+					<div class = "col-md-5">
+						<ul>
+							<li><a href = "">О банке</a></li>
+							<li><a href = "">Лицензия и Свидетельства</a></li>
+							<li><a href = "">Реквизиты банка</a></li>
+							<li><a href = "">Бухгалтерская и финансовая отчетность</a></li>
+							<li><a href = "">Раскрытие информации для регулятивных действий</a></li>
+							<li><a href = "">Информация о максимальных процентных ставках по вкладам физических лиц</a></li>
+							<li><a href = "">Информация о лицах, под контролем которых либо значительным влиянием которых находится Банк</a></li>
+						</ul>
+					</div>
+					<div class = "col-md-1"></div>
+					<div class = "col-md-6">
+						<ul>
+							<li><a href = "">FATCA</a></li>
+							<li><a href = "">Обработка персональных данных</a></li>
+							<li><a href = "">Корпоративное управление</a></li>
+							<li><a href = "">Устав и внутренние документы</a></li>
+							<li><a href = "">О порядке работы с жалобами, обращениями и заявлениями клиентов</a></li>
+							<li><a href = "">Страница АО КБ «Соколовский» на сайте Банка России</a></li>
+							<li><a href = "">Контакты</a></li>
+							<li><a href = "">Вакансии</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class = "inpro">
+				<a href = ""><img src = "images/inpro.png" /></a>
+			</div>			
+		</div>	
+	</footer>
+	
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/maskedinput.js"></script>
+    <script src="js/script.js"></script>
+	
+
+
+</body>
+</html>												
